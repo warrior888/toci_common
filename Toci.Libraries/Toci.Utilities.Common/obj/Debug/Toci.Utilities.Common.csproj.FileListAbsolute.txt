@@ -1,0 +1,6 @@
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Common\bin\Debug\Toci.Utilities.Common.dll.config
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Common\bin\Debug\Toci.Utilities.Common.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Common\bin\Debug\Toci.Utilities.Common.pdb
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Common\obj\Debug\Toci.Utilities.Common.csproj.CoreCompileInputs.cache
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Common\obj\Debug\Toci.Utilities.Common.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Common\obj\Debug\Toci.Utilities.Common.pdb

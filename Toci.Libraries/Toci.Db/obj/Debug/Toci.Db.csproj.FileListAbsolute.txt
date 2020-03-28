@@ -1,0 +1,9 @@
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\bin\Debug\Toci.Db.dll.config
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\bin\Debug\Toci.Db.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\bin\Debug\Toci.Db.pdb
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\bin\Debug\AutoMapper.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\bin\Debug\AutoMapper.xml
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\obj\Debug\Toci.Db.csproj.CoreCompileInputs.cache
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\obj\Debug\Toci.Db.csproj.CopyComplete
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\obj\Debug\Toci.Db.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db\obj\Debug\Toci.Db.pdb

@@ -83,6 +83,7 @@
     <Compile Include="Interfaces\IDbLogic.cs" />
     <Compile Include="Interfaces\IDbSharding.cs" />
     <Compile Include="Interfaces\IDelete.cs" />
+    <Compile Include="Interfaces\IEfDal.cs" />
     <Compile Include="Interfaces\IInsert.cs" />
     <Compile Include="Interfaces\IModel.cs" />
     <Compile Include="Interfaces\IQuery.cs" />

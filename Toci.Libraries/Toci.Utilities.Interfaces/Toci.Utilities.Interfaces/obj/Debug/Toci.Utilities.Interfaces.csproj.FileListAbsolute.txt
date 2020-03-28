@@ -1,0 +1,11 @@
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\bin\Debug\Toci.Utilities.Interfaces.dll.config
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\bin\Debug\Toci.Utilities.Interfaces.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\bin\Debug\Toci.Utilities.Interfaces.pdb
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\bin\Debug\Toci.Utilities.Common.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\bin\Debug\Toci.Utilities.Common.pdb
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\bin\Debug\Toci.Utilities.Common.dll.config
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\obj\Debug\Toci.Utilities.Interfaces.csprojAssemblyReference.cache
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\obj\Debug\Toci.Utilities.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\obj\Debug\Toci.Utilities.Interfaces.csproj.CopyComplete
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\obj\Debug\Toci.Utilities.Interfaces.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\obj\Debug\Toci.Utilities.Interfaces.pdb
