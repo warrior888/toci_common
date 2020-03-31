@@ -7,7 +7,7 @@ namespace Toci.Db.Interfaces
 {
     public interface IGenericDbHandle<TModel>
     {
-        IQueryable<TModel> Select(Expression<Func<string, List<TModel>>> where);
+        IQueryable<TModel> Select(Expression<Func<TModel, int, bool>> where);
 
         TModel Insert(TModel model);
 
