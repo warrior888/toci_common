@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ErrorsAndMessages</RootNamespace>
     <AssemblyName>ErrorsAndMessages</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction\TociApiController.cs" />
+    <Compile Include="ErrorHandling\ErrorEntity.cs" />
+    <Compile Include="ErrorHandling\ErrorFormatter.cs" />
+    <Compile Include="ErrorHandling\ReturnEntity.cs" />
     <Compile Include="Exceptions\ApiErrors.cs" />
     <Compile Include="Exceptions\WebApiTociApplicationException.cs" />
     <Compile Include="Managers\BlindLanguageManager.cs" />
@@ -55,6 +58,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Toci.ErrorsAndMessages.Interfaces\Toci.ErrorsAndMessages.Interfaces.csproj">
+      <Project>{7ed06ac8-676c-49f9-9b3e-fce65b8592f5}</Project>
+      <Name>Toci.ErrorsAndMessages.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Toci.Utilities.Common\Toci.Utilities.Common.csproj">
       <Project>{aa84d501-0707-40d3-aed8-f4884e7f0fb2}</Project>
       <Name>Toci.Utilities.Common</Name>
@@ -67,6 +74,7 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

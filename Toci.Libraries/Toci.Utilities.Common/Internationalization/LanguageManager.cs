@@ -2,6 +2,6 @@
 {
     public abstract class LanguageManager
     {
-        public abstract int GetLAnguage();
+        public abstract int GetLanguage();
     }
 }

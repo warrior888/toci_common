@@ -4,7 +4,7 @@ namespace ErrorsAndMessages.Managers
 {
     public class BlindLanguageManager : LanguageManager
     {
-        public override int GetLAnguage()
+        public override int GetLanguage()
         {
             return 1;
         }

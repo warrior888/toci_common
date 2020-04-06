@@ -20,7 +20,7 @@ namespace Toci.Utilities.Common.Exceptions
 
         public override List<string> GetErrorList(TociApplicationException ex)
         {
-            _resultErrorList.Add(Translator.Translate(GetErrMsg(ex), LanguageManager.GetLAnguage()));
+            _resultErrorList.Add(Translator.Translate(GetErrMsg(ex), LanguageManager.GetLanguage()));
 
             if (ex.InnerException as TociApplicationException != null)
             {

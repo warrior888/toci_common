@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Toci.Cms", "Toci.Cms.ssmssqlproj", "{DCDECF9E-9B71-45D7-9B6E-CD67E534113E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A0C1C28-2ED8-4031-926D-EE8D860B36D0}.Default|Default.ActiveCfg = Default
+		{DCDECF9E-9B71-45D7-9B6E-CD67E534113E}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A6370C2-8817-4995-BA57-11416094DAC7}
+	EndGlobalSection
+EndGlobal
