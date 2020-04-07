@@ -23,7 +23,7 @@ namespace Toci.Db.EntityFramework
 
         public virtual TModel Set(TModel model)
         {
-            TModel updated = EntitiesDbContext.Set<TModel>().Attach(model);
+            TModel updated = EntitiesDbContext.Set<TModel>().Add(model);
             EntitiesDbContext.SaveChanges();
 
             return updated;
@@ -46,7 +46,9 @@ namespace Toci.Db.EntityFramework
 
         public bool Delete(TModel model)
         {
-            // todo
+            EntitiesDbContext.Set<TModel>().Remove(model);
+            EntitiesDbContext.SaveChanges();
+
             return true;
         }
     }

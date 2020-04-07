@@ -1,6 +1,12 @@
 C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\Toci.Db.Interfaces.dll
 C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\Toci.Db.Interfaces.pdb
-C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\obj\Debug\Toci.Db.Interfaces.csprojAssemblyReference.cache
 C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\obj\Debug\Toci.Db.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\obj\Debug\Toci.Db.Interfaces.dll
 C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\obj\Debug\Toci.Db.Interfaces.pdb
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\obj\Debug\Toci.Db.Interfaces.csprojAssemblyReference.cache
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\Toci.Db.Interfaces.dll.config
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bzapa\Documents\toci_common\Toci.Libraries\Toci.Db.Interfaces\obj\Debug\Toci.Db.Interfaces.csproj.CopyComplete

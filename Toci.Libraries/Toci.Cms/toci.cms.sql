@@ -9,3 +9,4 @@ create table DataDefinition
 	Constraint8 text,
 	Metadata text -- json ?
 );
+

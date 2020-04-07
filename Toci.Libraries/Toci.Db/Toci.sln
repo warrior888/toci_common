@@ -13,18 +13,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Utilities.Common", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Utilities.Interfaces", "..\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces\Toci.Utilities.Interfaces.csproj", "{C3976AC9-39A5-4B47-8A67-33F021A4CDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Utilities.Test", "..\Toci.Utillties.Test\Toci.Utilities.Test.csproj", "{AFA373BC-F581-4E32-80B5-CC3179F630F7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.ErrorsAndMessages", "..\Toci.ErrorsAndMessages\Toci.ErrorsAndMessages.csproj", "{C723109F-5656-4245-8FFB-6A9CDE912F54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8E91842-9C98-48BB-9774-589E137CDE03}"
 	ProjectSection(SolutionItems) = preProject
 		..\Toci.Cms\toci.cms.sql = ..\Toci.Cms\toci.cms.sql
+		..\Toci.Cms\toci.geography.sql = ..\Toci.Cms\toci.geography.sql
+		..\Toci.Cms\toci.i18n.sql = ..\Toci.Cms\toci.i18n.sql
+		..\Toci.Cms\toci.user = ..\Toci.Cms\toci.user
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Db.Interfaces", "..\Toci.Db.Interfaces\Toci.Db.Interfaces.csproj", "{BDA91D44-EC72-43B6-A033-EEE9ED2E6F19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Cms.Db.Interfaces", "Toci.Cms.Db.Interfaces\Toci.Cms.Db.Interfaces.csproj", "{082A4915-7047-480A-A25C-C16E175B58BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.ErrorsAndMessages.Interfaces", "..\Toci.ErrorsAndMessages.Interfaces\Toci.ErrorsAndMessages.Interfaces.csproj", "{7ED06AC8-676C-49F9-9B3E-FCE65B8592F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Ui.Interfaces", "..\Toci.Ui.Interfaces\Toci.Ui.Interfaces.csproj", "{324F72B3-78B4-43E7-93DF-BE9684722DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Ui", "Toci.Ui\Toci.Ui.csproj", "{BD05A5A6-EE1C-4634-9456-7B16C8C15E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,10 +59,6 @@ Global
 		{C3976AC9-39A5-4B47-8A67-33F021A4CDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3976AC9-39A5-4B47-8A67-33F021A4CDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3976AC9-39A5-4B47-8A67-33F021A4CDC3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFA373BC-F581-4E32-80B5-CC3179F630F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFA373BC-F581-4E32-80B5-CC3179F630F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFA373BC-F581-4E32-80B5-CC3179F630F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFA373BC-F581-4E32-80B5-CC3179F630F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C723109F-5656-4245-8FFB-6A9CDE912F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C723109F-5656-4245-8FFB-6A9CDE912F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C723109F-5656-4245-8FFB-6A9CDE912F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,6 +71,18 @@ Global
 		{082A4915-7047-480A-A25C-C16E175B58BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082A4915-7047-480A-A25C-C16E175B58BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{082A4915-7047-480A-A25C-C16E175B58BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED06AC8-676C-49F9-9B3E-FCE65B8592F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED06AC8-676C-49F9-9B3E-FCE65B8592F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED06AC8-676C-49F9-9B3E-FCE65B8592F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED06AC8-676C-49F9-9B3E-FCE65B8592F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324F72B3-78B4-43E7-93DF-BE9684722DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324F72B3-78B4-43E7-93DF-BE9684722DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324F72B3-78B4-43E7-93DF-BE9684722DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324F72B3-78B4-43E7-93DF-BE9684722DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD05A5A6-EE1C-4634-9456-7B16C8C15E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD05A5A6-EE1C-4634-9456-7B16C8C15E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD05A5A6-EE1C-4634-9456-7B16C8C15E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD05A5A6-EE1C-4634-9456-7B16C8C15E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
