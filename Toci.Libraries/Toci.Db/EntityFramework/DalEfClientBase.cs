@@ -16,7 +16,7 @@ namespace Toci.Db.EntityFramework
             EntitiesDbContext = entitiesDbContext;
         }
 
-        public virtual IQueryable<TModel> Get(Expression<Func<TModel, int, bool>> @where)
+        public virtual IQueryable<TModel> Get(Expression<Func<TModel, bool>> @where)
         {
             return EntitiesDbContext.Set<TModel>().Where(@where);
         }
@@ -29,7 +29,7 @@ namespace Toci.Db.EntityFramework
             return updated;
         }
 
-        public IQueryable<TModel> Select(Expression<Func<TModel, int, bool>> @where)
+        public IQueryable<TModel> Select(Expression<Func<TModel, bool>> @where)
         {
             return Get(@where);
         }

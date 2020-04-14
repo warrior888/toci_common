@@ -7,7 +7,7 @@ namespace Toci.Db.Interfaces
 {
     public interface IGenericDbClient<TModel>
     {
-        IQueryable<TModel> Get(Expression<Func<TModel, int, bool>> where);
+        IQueryable<TModel> Get(Expression<Func<TModel, bool>> where);
 
         TModel Set(TModel model);
     }
