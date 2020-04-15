@@ -41,7 +41,11 @@ namespace Toci.Db.EntityFramework
 
         public virtual TModel Update(TModel model)
         {
-            return Set(model);
+            //return Set(model);
+            TModel updated = model;
+            EntitiesDbContext.SaveChanges();
+            return updated;
+
         }
 
         public bool Delete(TModel model)
